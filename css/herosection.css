@@ -1,0 +1,179 @@
+/* **************** ITEM 1 *********************** */
+.allDiv{
+  width: 80%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.item1 {
+	float: left;
+	display: inline-block;
+	width: 100%;
+  max-width: 300px;
+	margin-right: 1.5%;
+	position: relative;
+	cursor: pointer;
+}
+.item1 img {
+	max-width: 100%;
+  position: relative;
+}
+.item1 .effect {
+  color: #fff;
+  width: 100%;
+  left: 0;
+  text-align: center;
+  font-size: 40px;
+  height: 0px;
+  position: absolute;
+  transition: 0.5s ease all;
+	visibility: hidden;
+	opacity: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}	
+.item1:hover .effect {
+  background-color: rgb(10, 142, 151);
+  visibility: visible;
+  height: 28%;
+  padding: 42% 0; 
+  opacity: 1;
+}
+
+.item1 p{
+  position: absolute;
+  bottom: 20%;
+  left: 33%;
+  color: white;
+}
+
+.item1 h2{
+  position: absolute;
+  bottom: 0;
+  left: 20%;
+  text-align: center;
+  color: white;
+}
+
+.item1 .effect p{
+  font-size: 13px;
+  color: black;
+  margin-bottom: 85%;
+  margin-left: 5%;
+}
+
+.item1 .effect h1{
+  font-size: 20px;
+  color: black;
+}
+
+.item1 .effect img{
+  width: 140px;
+  height: 140px;
+}
+
+.item1 .effect span{
+  color: silver;
+  font-size: 13px;
+}
+
+.item1 .effect a{
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+}
+
+/* **************** ITEM 2 *********************** */
+
+.item2 {
+	float: left;
+	display: inline-block;
+	width: 100%;
+  height: 350px;
+  max-width: 300px;
+	margin-right: 1.5%;
+	position: relative;
+	cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #F4F4F4;
+}
+
+.item2 p{
+  font-size: 13px;
+  color: black;
+}
+
+.item2 h1{
+  font-size: 20px;
+  color: black;
+}
+
+.item2 img{
+  width: 140px;
+  height: 140px;
+}
+
+.item2 span{
+  color: silver;
+  font-size: 13px;
+}
+
+.item2 a{
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+}
+
+.item2 .effect2{
+  color: #fff;
+  width: 100%;
+  left: 0;
+  text-align: center;
+  font-size: 40px;
+  height: 0px;
+  position: absolute;
+  transition: 0.5s ease all;
+	visibility: hidden;
+	opacity: 0;
+  top: -36%;
+}
+
+.item2:hover .effect2{
+  visibility: visible;
+  height: 70%;
+  padding: 42% 0; 
+  opacity: 1;
+}
+
+.item2 .effect2 .img-effect2 {
+	width: 100%;
+  height: 350px;
+  position: relative;
+}
+
+.item2 .effect2 p{
+  position: absolute;
+  bottom: 20%;
+  left: 40%;
+  color: white;
+  text-align: center;
+}
+
+.item2 .effect2 h2{
+  position: absolute;
+  bottom: 10%;
+  left: 25%;
+  text-align: center;
+  color: white;
+  font-size: 24px;
+}
